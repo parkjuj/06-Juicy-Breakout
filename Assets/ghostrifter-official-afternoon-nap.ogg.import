@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ghostrifter-official-afternoon-nap.ogg-3bbf50c0df1c39fcd9cba2aa36ec35a9.oggstr"
+
+[deps]
+
+source_file="res://Assets/ghostrifter-official-afternoon-nap.ogg"
+dest_files=[ "res://.import/ghostrifter-official-afternoon-nap.ogg-3bbf50c0df1c39fcd9cba2aa36ec35a9.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

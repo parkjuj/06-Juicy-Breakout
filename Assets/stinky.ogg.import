@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/stinky.ogg-998107166c6e8fc80923f3f419b7826a.oggstr"
+
+[deps]
+
+source_file="res://Assets/stinky.ogg"
+dest_files=[ "res://.import/stinky.ogg-998107166c6e8fc80923f3f419b7826a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
