@@ -35,7 +35,6 @@ anchor_mode = 0
 current = true
 
 [node name="Paddle" type="KinematicBody2D" parent="."]
-editor/display_folded = true
 position = Vector2( 544, 552 )
 script = ExtResource( 3 )
 __meta__ = {
@@ -60,16 +59,13 @@ scale = Vector2( 0.111671, 0.0363164 )
 texture = ExtResource( 4 )
 
 [node name="Wall" type="StaticBody2D" parent="."]
-editor/display_folded = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Wall"]
 polygon = PoolVector2Array( 0, 632, 0, 0, 1024, 0, 1024, 632, 1064, 632, 1064, -40, -48, -40, -48, 632 )
 
 [node name="Tiles" type="Node2D" parent="."]
-editor/display_folded = true
 
 [node name="Tile Row 1" type="Node2D" parent="Tiles"]
-editor/display_folded = true
 
 [node name="Tile" parent="Tiles/Tile Row 1" instance=ExtResource( 5 )]
 modulate = Color( 1, 0, 0, 1 )
@@ -280,7 +276,6 @@ modulate = Color( 0, 0, 0, 1 )
 position = Vector2( 832, 136 )
 
 [node name="DCT" type="Node2D" parent="."]
-editor/display_folded = true
 
 [node name="ColorRect" type="ColorRect" parent="DCT"]
 margin_right = 121.0
@@ -326,7 +321,6 @@ text = "Lives:"
 script = ExtResource( 8 )
 
 [node name="Starting" type="Label" parent="."]
-editor/display_folded = true
 margin_left = 0.301697
 margin_top = 1.30165
 margin_right = 1024.3

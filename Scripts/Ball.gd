@@ -24,4 +24,4 @@ func _physics_process(delta):
 		Game.change_lives(-1)
 		Starting.startCountdown(3)
 		queue_free()
-		Exit.playing = true
+		
